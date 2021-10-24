@@ -1,0 +1,180 @@
+Asm
+Asm
+Permite incluir codigo ensamblador dentro del Programa, utilizando los mnem¢nicos normales del ensamblador.
+Auto
+Auto
+Permite la inicializacion de variables sin especificar el tipo.
+Bool
+Booleano
+Tiene 2 posibles valores true (por lo general se indica con 1) o false (por lo general se indica con 0).
+Break
+Roto
+Detener la ejecucion de un bucle y salirse de el.
+Case
+Caso
+Palabra que crea una etiqueta (la expresion constante) para una opcion que se comparara con la expresion  que recibe switch.
+Catch
+Captura
+Captura cualquier excepcion, y en particular, la excepcion bad_alloc.  El tratamiento que se efectua es,  en este caso, mostrar un mensaje de error y terminar la ejecucion del programa.
+Char
+Caracter
+sirve para representar o contener un solo caracter.
+Class
+Clase 
+es un nuevo dato que se utiliza para crear objetos. Crea consistencia logica que define una relacion entre sus miembros. Cuando se declara una variable class se esta creando un objeto. 
+Const
+Constante 
+Se utiliza para hacer que un objeto-dato, senalado por un identificador, no pueda ser modificado a lo largo del programa (sea constante).
+Const_cast
+Correctitud de constantes 
+Sirve para anadir y quitar atributos de tipos. Quitar el atributo const de una variables-de ahi el nombre del cast.
+Continue
+Continuar
+Pasa el control a la siguiente interaccion de la instruccion de inclusion do, for o while mas pr¢xima en que aparece, omitiendo las restantes instrucciones en el cuerpo de la instruccion do, for o while. Continue siempre se usa para interrumpir(romper) la ejecuci¢n normal de un bucle.  
+Default
+Defecto
+Hace que se ejecuten las instrucciones a continuacion de ella en caso de que la ejecucion del programa llegue alcanzarla. Si se usan las sentencias break; en cada evaluacion, solo se ejecutar a lo indicado en default si no se ha encontrado una coincidencia previa.
+Delete 
+Eliminar
+Se usa para liberar la memoria dinamica reservada con new.
+Do
+Hacer
+Ejecuta la accion y luego evalua la condicion, asegura que lo que pongas dentro se ejecute minimo una vez, pues primero ejecuta y luego eval£a la condicion. 
+Double
+Doble
+Es una variable que almacena valores decimales.
+Dynamic_cast
+Emitir dinamica
+Convierte punteros y referencias a clases a traves de la jerarqu¡a de la herencia. El puntero de la clase base puede ser lanzado en un puntero de clase derivado y permite llamar funciones de miembros de clases derivados
+Else 
+Demas
+Permiten tomar cierta decision al interior del nuestro algoritmo, permiten determinar que acciones tomar  dada o no cierta condicion.  
+Enum
+Enumeracion
+Define grupos de elementos comunes(conjuntos).
+Explicit
+Explicita
+Usada para imponer que un constructor se llame explicitamente, frente al constructor le dial copilador que solo se permite la llamada explicita a este constructor.
+Extern
+Externo
+El modificador extern es opcional para las funciones prototipo. Se puede usar extern "C" con el fin de prevenir que algun nombre de funcion pueda ser ocultado por funciones de C++.
+False
+Falso
+Declara val variable booleana y la inicia, se utiliza para comprobaciones logicas.
+Float
+Flotadora
+Devuelve un numero real a partir de un numero o de una cadena de texto.
+For
+Por
+Ciclo for es una estructura de control iterativa, que ejecuta de manera repetitiva un bloque de instrucciones, conociendo previamente un valor de inicio, un tama¤o de paso y un valor final para el ciclo.
+Friend
+Amigo
+No pertenece a la clase, tiene el permiso para acceder a sus variables y funciones miembro privadas por   medio de los operadores punto y flecha, sin tener que recurrir a las funciones miembro publicas de la clase.
+Goto
+Ir a 
+Transfiere el control a un punto determinado del codigo, donde debe continuar la ejecucion.
+If
+Si
+Es una estructura de control que valida una condicion y nos permiten determinar que acciones tomar dada o no cierta condicion.
+Inline
+En linea 
+Indica al compilador que cada llamada a la funcion debera ser reemplazada por el cuerpo de esta funcion. 
+Int
+En t 
+Declara la funcion, indica que la funcion devuelve el resultado entero.
+Long
+Largo
+Tipo de dato de punto(o coma) flotante que suele ser mas preciso que un double.
+Mutable
+Mudable
+Indica el compilador que aunque un elemento esta en una funcion constante, que esta definida para que no  se puedan modificar los elementos de la clase, aun asi podamos modificarlo.
+Namespace
+Espacio de nombres
+Crea un bloque, y que todas las funciones que esten dentro del mismo est‚n asociadas a ese namespace, al  cual se le asigna un nombre para identificarlo.
+Nex
+Nuevo 
+Proporciona espacio de almacenamiento persistente, similar pero superior a la funcion de libreria estandarmalloc.
+Operator
+Operador
+ Es un simbolo que le dice al compilador que realice manipulaciones matematicas o logicas especificas.
+Private
+Privado
+Al contrario que las publicas, las variables/funciones privadas sólo pueden ser accedidas desde dentro de la misma clase.
+Protected
+Protegido
+Es un punto medio entre publico y privado, porque -como ocurre con las privadas- no se puede acceder a ella desde una instancia de la clase, pero -como ocurre con las publicas- puede ser accedido desde las subclases de esta, no importa si se encuentran o no en el mismo paquete.
+Public
+Publico
+Una variable/funcion publica puede ser accedida desde fuera de la clase.
+Register
+Registro
+Se utiliza para indicar al compilador que ciertas variables (normalmente del tipo int y char) deben ser almacenadas en los registros del procesador en lugar de la pila (1.3.2).
+Reinterpret_cast
+Reinterpretar_Caso
+Devuelve un valor de tipo new_type.
+Return
+Regreso
+Primero, fuerza una salida inmediata de la función en que se encuentra y segundo se puede utilizar para devolver un valor.
+Short
+Pequeño
+Representa valores que pueden ser true o false
+Signed
+Firmado
+Define que el valor de una variable numerica puede ser positivo o negativo.
+Sizeof
+Tamano de
+Es una palabra clave, es un operador de tiempo de compilacion, que se utiliza para determinar la variable o el tipo de datos en bytes.
+Static
+Estatico
+Se usa para almacenar la variable en la memoria asignada de forma estatica.
+Static_Cast
+Elenco_estatico
+Realiza una conversion de tipo explicito.
+Struct
+Estructura
+Es una palabra reservada de C que indica que los elementos que vienen agrupados a continuacion entre llaves.
+Switch
+Cambiar
+Son una estructura de control condicional, que permite definir multiples casos que puede llegar a cumplir una variable cualquiera.
+Template
+Plantilla
+Las plantillas son una caracteristica del lenguaje de programacion C ++ que permite que las funciones y clases operen con tipos genericos.
+This
+Esto
+Se define this dentro de un objeto como un puntero al objeto en que esta contenido.
+Throw
+Lanzar
+Senala una condicion erronea y ejecuta un controlador de errores.
+True
+Verdadero
+Tiene el valor cierto (numericamente es uno).
+Try
+Tratar
+Se pretende evaluar una o mas expresiones y si dentro de dicho bloque se produce un algo que no se espera se lanza por medio de throw una excepcion.
+Typedef
+Tipo_def
+Su funcion es asignar un nombre alternativo a tipos existentes.
+Typename
+Tipo_nombre
+Se utiliza para especificar que un nombre dependiente en una definicion o declaracion de plantilla es un tipo.
+Union
+Union
+Es un tipo de datos derivado, como una estructura, con miembros que comparten el mismo espacio de almacenamiento.
+Unsigned
+No_firmado
+Se utiliza para convertir datos numericos al formato sin signo para exportar a sistemas de mainframe.
+Using
+Utilizando
+Puede ser usada para acortar definiciones de tipo largas, creando un alias para el.
+Virtual
+Virtual
+Es determinado por la definicion de una funcion con la misma cabecera en alguna de sus subclases.
+Void
+Vacio
+En C++ el concepto de no existencia o no atribucion de un tipo en una variable o declaracion.
+Volatile
+Volatil
+Dispone de un indicador especifico; la palabra clave volatile es un modificador que, anadido a una variable, advierte al compilador que esta puede ser modificada por una rutina.
+While
+Tiempo
+Permite ejecutar una o varias lineas de codigo de manera repetitiva sin necesidad de tener un valor inicial.
